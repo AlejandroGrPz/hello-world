@@ -1,5 +1,5 @@
 <context>
-  <input pattern="(hola|buenas) *">
-    <output value="Hola!"/>
+  <input pattern="* (hola|buenas|Hola|Buenas|Buenos|buenos|buenas) *">
+    <output value="Hola $UserName!, Gracias por ponerte en contacto con nosotros en INMEDSM. En que te puedo ayudar?"/>
   </input>
 </context>
